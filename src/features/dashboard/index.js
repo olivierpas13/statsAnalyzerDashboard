@@ -82,9 +82,10 @@ function Dashboard() {
       </div>
 
       {/** ---------------------- Different charts ------------------------- */}
-      <div className="grid lg:grid-cols-2 mt-4 grid-cols-1 gap-6">
+      <div className="grid lg:grid-cols-2 mt-4 grid-cols-1 gap-6 h-2/6">
         <LineChart />
         <Tech />
+
         {/* <BarChart /> */}
       </div>
 
@@ -98,7 +99,9 @@ function Dashboard() {
       {/** ---------------------- User source channels table  ------------------------- */}
 
       <div className={"h-screen card w-full p-6 bg-base-100 shadow-xl mt-6"}>
-        <Subtitle>{"Representación de tecnologías en distintos paises"}</Subtitle>
+        <Subtitle>
+          {"Representación de tecnologías en distintos paises"}
+        </Subtitle>
         <div className="divider mt-2"></div>
 
         <div className={`h-3/4 w-full bg-base-100 flex justify-center`}>

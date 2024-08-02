@@ -15,7 +15,7 @@ function TitleCard({ title, children, topMargin, TopSideButtons, height }) {
       <div className="divider mt-2"></div>
 
       {/** Card Body */}
-      <div className={`h-${cardHeight} w-full pb-6 bg-base-100 flex justify-center`}>
+      <div className={`h-${cardHeight} w-full pb-6 bg-base-100 flex justify-center `}>
         {children}
       </div>
     </div>
