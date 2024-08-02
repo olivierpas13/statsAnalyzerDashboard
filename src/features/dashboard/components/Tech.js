@@ -34,7 +34,7 @@ function Tech() {
       }
     >
       <Subtitle >
-        {"Representación de tecnologías en distintos paises"}
+        {"Distribución de tecnología" }
       </Subtitle>
       <div className="divider mt-2"></div>
       <div className="flex justify-center items-center h-4/5">
